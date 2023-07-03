@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+a{ TEXT-DECORATION:none;color: white; opacity:0.7;}
+
 body {
   font-family: "Poppins", sans-serif;
 
@@ -27,6 +29,14 @@ header {
   width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
+}
+
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;    
 }
 
 /*  NAV: Top Menu Section
